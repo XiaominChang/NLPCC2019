@@ -54,5 +54,5 @@ def multi_test():
 
 
 if __name__ == '__main__':
-    single_Test()
-    multi_Test()
+    single_test()
+    multi_test()
