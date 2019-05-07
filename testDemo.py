@@ -46,7 +46,7 @@ def multi_test():
             data = r.json()
             repliesList = data['resultSet']
             for reply in repliesList:
-                print reply['qid'], reply['question']
+                print reply['qid'], reply['answer']
         else:
             print "wrong,status_code: ", r.status_code
     except Exception as e:
