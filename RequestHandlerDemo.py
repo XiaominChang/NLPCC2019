@@ -42,7 +42,7 @@ class RequestHandler():
             replyDict = {}
             replyDict['qid'] = sentence['qid']
             try:
-                replyDict['answer'] = self.getReply(sentence['question'])
+                replyDict['result'] = self.getReply(sentence['question'])
                 repliesList.append(replyDict)
             except Exception as e:
                 print Exception, ' : ', e
